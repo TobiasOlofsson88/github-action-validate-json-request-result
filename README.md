@@ -63,7 +63,7 @@ Validate JSON should fail
 - **`request-body`** (**optional**): Request body
 - **`should-fail`** (**optional, default: false**): Validator should fail
 - **`validate-json`** (**optional**): Expected JSON
-- **`validate-expression`** (**optional**): Expected JSON
+- **`validate-expression`** (**optional**): Expression
 
 Using 1 validator(validate-\*) is required
 
