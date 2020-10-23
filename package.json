@@ -1,0 +1,25 @@
+{
+  "name": "github-action-validate-json-request-result",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiasOlofsson88/github-action-validate-json-request-result.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TobiasOlofsson88/github-action-validate-json-request-result/issues"
+  },
+  "homepage": "https://github.com/TobiasOlofsson88/github-action-validate-json-request-result#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "axios": "^0.20.0"
+  }
+}

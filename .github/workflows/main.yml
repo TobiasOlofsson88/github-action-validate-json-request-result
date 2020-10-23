@@ -1,0 +1,18 @@
+on: [push]
+jobs:
+  test_job:
+    runs-on: windows-latest
+    name: Test
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+#       - name: Test action
+#         uses: ./ # Use this action
+#         with:
+#           request-method: ""
+#           request-url: ""
+#           request-headers: ""
+#           request-body: ""
+#           should-fail: false
+#           validate-json: ""
+#           validate-expression: ""

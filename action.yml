@@ -1,0 +1,32 @@
+name: "Validate JSON request-response"
+description: "Validate JSON request-response"
+inputs:
+  request-method:
+    description: "HTTP Method"
+    required: true
+    default: "GET"
+  request-url:
+    description: "URL to request"
+    required: true
+  request-headers:
+    description: "Request headers"
+    required: false
+  request-body:
+    description: "Request body"
+    required: false
+  should-fail:
+    description: "Validator should fail"
+    default: false
+    required: false
+  validate-json:
+    description: "Expected JSON requestresult"
+    required: false
+  validate-expression:
+    description: "Expression"
+    required: false
+outputs:
+  valid:
+    description: "Validation result"
+runs:
+  using: "node12"
+  main: "index.js"
