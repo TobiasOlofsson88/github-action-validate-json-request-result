@@ -1,7 +1,8 @@
 name: "Validate JSON request-response"
 description: "Validate JSON request-response"
-icon: check-circle
-color: black
+branding:
+  icon: "check-circle"
+  color: "black"
 inputs:
   request-method:
     description: "HTTP Method"
