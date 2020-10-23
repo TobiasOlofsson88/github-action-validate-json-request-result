@@ -1,6 +1,6 @@
 # :wrench: Validate JSON request-response
 
-A Github Action for validating JSON requestresult
+A Github Action for validating JSON request-response
 
 <hr/>
 
@@ -12,7 +12,7 @@ Validate JSON
 
 ```yml
 - name: ValidateJSON
-  uses: TobiasOlofsson88/github-action-validate-json-request-result@v1.0.0
+  uses: TobiasOlofsson88/github-action-validate-json-request-result@v1.0.1
   with:
     request-method: "GET"
     request-url: "https://yourapi.com/endpoint"
@@ -23,7 +23,7 @@ Validate expression, reference the response as `response`
 
 ```yml
 - name: ValidateJSON
-  uses: TobiasOlofsson88/github-action-validate-json-request-result@v1.0.0
+  uses: TobiasOlofsson88/github-action-validate-json-request-result@v1.0.1
   with:
     request-method: "GET"
     request-url: "https://yourapi.com/endpoint"
@@ -34,7 +34,7 @@ Custom header and POST body
 
 ```yml
 - name: ValidateJSON
-  uses: TobiasOlofsson88/github-action-validate-json-request-result@v1.0.0
+  uses: TobiasOlofsson88/github-action-validate-json-request-result@v1.0.1
   with:
     request-method: "POST"
     request-url: "https://yourapi.com/endpoint"
@@ -47,7 +47,7 @@ Validate JSON should fail
 
 ```yml
 - name: ValidateJSON
-  uses: TobiasOlofsson88/github-action-validate-json-request-result@v1.0.0
+  uses: TobiasOlofsson88/github-action-validate-json-request-result@v1.0.1
   with:
     request-method: "GET"
     request-url: "https://yourapi.com/endpoint"
